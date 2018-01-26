@@ -32,20 +32,21 @@ func main() {
 	// Calculate the Max of the variable.
 	maxVal := floats.Max(sepalLength)
 
-	// Calculate the Median of the variable.
+	// 범위
 	rangeVal := maxVal - minVal
 
-	// Calculate the variance of the variable.
+	// 분산
 	varianceVal := stat.Variance(sepalLength, nil)
 
-	// Calculate the standard deviation of the variable.
+	// 표준편차
 	stdDevVal := stat.StdDev(sepalLength, nil)
 
-	// Sort the values.
+	// 값 정렬
 	inds := make([]int, len(sepalLength))
 	floats.Argsort(sepalLength, inds)
 
-	// Get the Quantiles.
+	// (사)분위수
+	// https://support.minitab.com/ko-kr/minitab/18/help-and-how-to/graphs/how-to/boxplot/interpret-the-results/quartiles/
 	quant25 := stat.Quantile(0.25, stat.Empirical, sepalLength, nil)
 	quant50 := stat.Quantile(0.50, stat.Empirical, sepalLength, nil)
 	quant75 := stat.Quantile(0.75, stat.Empirical, sepalLength, nil)

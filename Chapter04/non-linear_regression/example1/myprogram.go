@@ -78,7 +78,7 @@ func main() {
 		}
 	}
 
-	// Form the matrices that will be input to our regression.
+	// Form the 02_matrices that will be input to our regression.
 	features := mat64.NewDense(len(rawCSVData), 4, featureData)
 	y := mat64.NewVector(len(rawCSVData), yData)
 

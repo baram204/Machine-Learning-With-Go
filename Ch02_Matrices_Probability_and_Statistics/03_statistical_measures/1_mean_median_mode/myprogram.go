@@ -19,24 +19,30 @@ func main() {
 	}
 	defer irisFile.Close()
 
-	// Create a dataframe from the CSV file.
+	// 데이터 프레임 새로 만든다.
 	irisDF := dataframe.ReadCSV(irisFile)
 
-	// Get the float values from the "sepal_length" column as
-	// we will be looking at the measures for this variable.
+	// petal_lengh 열을 가져오는데 float 타입으로 가져온다.
 	sepalLength := irisDF.Col("petal_length").Float()
 
-	// Calculate the Mean of the variable.
+	// 변수의 평균(mean)을 계산한다.
 	meanVal := stat.Mean(sepalLength, nil)
 
-	// Calculate the Mode of the variable.
+	// 변수의 최빈값(mode)을 계산한다.
 	modeVal, modeCount := stat.Mode(sepalLength, nil)
 
-	// Calculate the Median of the variable.
+	// 변수의 중앙값(median)을 계산한다.
 	medianVal, err := stats.Median(sepalLength)
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	// 평균, 중앙값, 최빈값 필요 경우는 다음에서 보자.
+	// http://blog.acronym.co.kr/401
+
+	// 각 숫자들이 틀린 경우, 정규 분포( normal distribution )가 아닌
+	// 비대칭 분포(skewed distribution) 일 가능성이..
+	// http://www.statisticshowto.com/probability-and-statistics/skewed-distribution/
 
 	// Output the results to standard out.
 	fmt.Printf("\nSepal Length Summary Statistics:\n")
