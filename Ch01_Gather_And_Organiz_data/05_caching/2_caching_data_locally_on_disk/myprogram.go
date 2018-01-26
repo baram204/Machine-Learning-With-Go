@@ -9,26 +9,28 @@ import (
 
 func main() {
 
-	// Open an embedded.db data file in your current directory.
-	// It will be created if it doesn't exist.
+	// 현재 디렉토리에 embedded.db 자료 파일을 연다.
+	// 없으면 생성함
 	db, err := bolt.Open("embedded.db", 0600, nil)
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer db.Close()
 
-	// Create a "bucket" in the boltdb file for our data.
-	if err := db.Update(func(tx *bolt.Tx) error {
-		_, err := tx.CreateBucket([]byte("MyBucket"))
-		if err != nil {
-			return fmt.Errorf("create bucket: %s", err)
-		}
+	// 자료를 위한 "bucket"을 볼트DB 파일에 생성한다.
+	if err := db.Update(
+		func(tx *bolt.Tx) error {
+			_, err := tx.CreateBucket([]byte("MyBucket"))
+			if err != nil {
+				return fmt.Errorf("create bucket: %s", err)
+			}
 		return nil
-	}); err != nil {
+		});
+		err != nil {
 		log.Fatal(err)
 	}
 
-	// Put the map keys and values into the BoltDB file.
+	// 볼트DB 파일에 키와 값의 맵을 넣는다.
 	if err := db.Update(func(tx *bolt.Tx) error {
 		b := tx.Bucket([]byte("MyBucket"))
 		err := b.Put([]byte("mykey"), []byte("myvalue"))

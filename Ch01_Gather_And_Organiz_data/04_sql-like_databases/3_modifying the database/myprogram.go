@@ -27,13 +27,14 @@ func main() {
 	}
 	defer db.Close()
 
-	// Update some values.
+	// 어떤 값들을 갱신한다.
+	// 이것은 변경(modification)이기 때문에 Exec 를 사용해서 변경하는 쿼리문을 날린다.
 	res, err := db.Exec("UPDATE iris SET species = 'setosa' WHERE species = 'Iris-setosa'")
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	// See how many rows where updated.
+	// 얼마나 많은 행이 영향을 받았는지 본다.
 	rowCount, err := res.RowsAffected()
 	if err != nil {
 		log.Fatal(err)
