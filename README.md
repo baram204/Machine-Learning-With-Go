@@ -1,55 +1,109 @@
-# Machine Learning With Go
-This is the code repository for [Machine Learning With Go](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-go?utm_source=github&utm_medium=repository&utm_campaign=9781785882104), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
-## About the Book
-The mission of this book is to turn readers into productive, innovative data analysts who leverage Go to build robust and valuable applications. To this end, the book clearly introduces the technical aspects of building predictive models in Go, but it also helps the reader understand how machine learning workflows are being applied in real-world scenarios.
+## Progress
 
-## Instructions and Navigation
-All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
+#### First phase
 
+- [X] 1: 자료 모으고 조직하기  
+    Gathering and Organizing Data
+    - [X] 고개발자 스타일로 자료 다루기  
+       Handling data with Gopher style
+    - [X] 고로 자료를 모으고 조직하는 최고의 방법  
+       Best practices for gathering and organizing data with Go
+    - [X] 쉼표 분리 값 파일  
+       CSV files
+    - [X] JSON  
+      자바스크립트 객체 표기법 파일
+    - [X] SQL_like databases  
+      SQL 같은 데이터베이스
+    - [X] Caching  
+      캐싱
+    - [X] Data versioning  
+      데이터 버저닝
+    - [X] References
+    - [X] Summary
+- [X] 2: 행렬, 확률 그리고 통계  
+    Matrices, Probability, and Statistics    
+    - [X] 행렬과 벡터  
+      Matrices and vectors
+    - [X] 통계  
+      Statistics
+    - [ ] 확률  
+      Probability
+    - [ ] References
+    - [ ] Summary
+    
+#### Second phase
 
+- [ ] 3: 평가와 검증  
+    Evaluation and Validation
+    - [ ] 평가  
+       Evaluation
+    - [ ] 검증  
+      Validation
+    - [ ] References
+    - [ ] Summary
+- [ ] 4: 회귀  
+    Regression
+    - [ ] 회귀 모델이라는 전문 용어 이해하기 
+      Understanding regression model jargon
+    - [ ] 선형 회귀  
+    Linear regression
+    - [ ] 다중 선형 회귀  
+    Multiple linear regression
+    - [ ] 비선형 혹은 다른 회귀 종류  
+    Nonlinear and other types of regression
+    - [ ] References
+    - [ ] Summary
 
-The code will look like the following:
-```
-// Create a new matrix a.
-a := mat.NewDense(3, 3, []float64{1, 2, 3, 0, 4, 5, 0, 0, 6})
-// Compute and output the transpose of the matrix.
-ft := mat.Formatted(a.T(), mat.Prefix(" "))
-fmt.Printf("a^T = %v\n\n", ft)
-// Compute and output the determinant of a.
-deta := mat.Det(a)
-fmt.Printf("det(a) = %.2f\n\n", deta)
-// Compute and output the inverse of a.
-aInverse := mat.NewDense(0, 0, nil)
-if err := aInverse.Inverse(a); err != nil {
-log.Fatal(err)
-}
-fi := mat.Formatted(aInverse, mat.Prefix(" "))
-fmt.Printf("a^-1 = %v\n\n", fi)
-```
+#### Third phase
 
-To run the examples in this book and experiment with the techniques covered in the book,
-you will generally need the following:
-Access to a bash-like shell.
-A complete Go environment including Go, an editor, and related default or
-custom environment variables defined. You can, for example, follow this guide
-at https://www.goinggo.net/2016/05/installing-go-and-your-workspace.htm
-l.
-Various Go dependencies. These can be obtained as they are needed via go get
-....
-Then, to run the examples related to some of the advanced topics, such as data pipelining
-and deep learning, you will need a few additional things:
-An installation or deployment of Pachyderm. You can follow these docs to get
-Pachyderm up and running locally or in the
-cloud, http://pachyderm.readthedocs.io/en/latest/.
-A working Docker installation
-(https://www.docker.com/community-edition#/download).
-An installation of TensorFlow. To install TensorFlow locally, you can follow this
-guide at https://www.tensorflow.org/install/.
+- [ ] 5: 분류  
+    Classification
+    - [ ] Understanding classification model jargon
+    - [ ] Logistic regression
+    - [ ] k_nearest neighbors
+    - [ ] Decision trees and random forests
+    - [ ] Naive bayes
+    - [ ] References
+    - [ ] Summary
+    
+#### Fourth phase - I'm not sure.
 
-## Related Products
-* [Mastering Machine Learning with scikit-learn - Second Edition](https://www.packtpub.com/big-data-and-business-intelligence/mastering-machine-learning-scikit-learn-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788299879)
+- [ ] 6: Clustering
+    - [ ] Understanding clustering model jargon
+    - [ ] Measuring Distance or Similarity
+    - [ ] Evaluating clustering techniques
+    - [ ] k_means clustering
+    - [ ] Other clustering techniques
+    - [ ] References
+    - [ ] Summary
+    
+#### Fifth phase - I'm not sure.
 
-* [Mastering Machine Learning with scikit-learn](https://www.packtpub.com/big-data-and-business-intelligence/mastering-machine-learning-scikit-learn?utm_source=github&utm_medium=repository&utm_campaign=9781783988365)
-
-* [Machine Learning with JavaScript](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-javascript?utm_source=github&utm_medium=repository&utm_campaign=9781787280199)
-
+- [ ] 7: Time Series and Anomaly Detection
+    - [ ] Representing time series data in Go
+    - [ ] Understanding time series jargon
+    - [ ] Statistics related to time series
+    - [ ] Auto_regressive models for forecasting
+    - [ ] Auto_regressive moving averages and other time series models
+    - [ ] Anomaly detection
+    - [ ] References
+    - [ ] Summary
+    
+#### I'm not sure.
+    
+- [ ] 8: Neural Networks and Deep Learning
+    - [ ] Understanding neural net jargon
+    - [ ] Building a simple neural network
+    - [ ] Utilizing the simple neural network
+    - [ ] Introducing deep learning
+    - [ ] References
+    - [ ] Summary
+- [ ] 9: Deploying and Distributing Analyses and Models
+    - [ ] Running models reliably on remote machines
+    - [ ] Building a scalable and reproducible machine learning pipeline
+    - [ ] References
+    - [ ] Summary
+- [ ] 10: Algorithms/Techniques Related to Machine Learning
+    - [ ] Gradient descent
+    - [ ] Entropy, information gain, and related methods
+    - [ ] Backpropagation
