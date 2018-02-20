@@ -1,0 +1,8 @@
+[submodule "example"]
+	path = example
+	url = git@github.com:baram204/Machine-Learning-With-Go.git
+	branch = master
+[submodule "mlgo_execercise"]
+	path = mlgo_execercise
+	url = git@github.com:baram204/Machine-Learning-With-Go.git
+	branch = master
