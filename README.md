@@ -33,7 +33,7 @@ You can view example notebooks of lgo from
 If you want to execute these notebooks, you can try these notebooks on your browser without installation from [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/yunabe/lgo-binder/master?filepath=basics.ipynb)
 
 # Try lgo from your browser without installation
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/yunabe/lgo-binder/master?filepath=basics.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://hub.mybinder.org/user/baram204-machin-earning-with-go-g86stkvt/tree)
 
 Thanks to [binder (mybinder.org)](https://mybinder.org/), you can try lgo on your browsers with temporary docker containers on binder.
 Open your temporary Jupyter Notebook from the button above and enjoy lgo.
