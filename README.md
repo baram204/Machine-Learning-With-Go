@@ -1,9 +1,11 @@
-# lgo
+# Personal use Lgo
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/yunabe/lgo-binder/master?filepath=basics.ipynb)
 
-Go (golang) Jupyter Notebook kernel and an interactive REPL
+For ease of learning. Use lgo to excercise "mlgo with go" book.
 
-# Features
+Lgo is Go (golang) Jupyter Notebook kernel and an interactive REPL.
+
+# Lgo's Features
 - Write and execute Go (golang) interactively like Python.
 - Jupyter Notebook integration
 - Full Go (golang) language spec support. 100% gc (go compiler) compatible.
@@ -12,6 +14,17 @@ Go (golang) Jupyter Notebook kernel and an interactive REPL
 - Currently, lgo is only supported on Linux. But you can use lgo on Mac and Windows with virtual machines or Docker.
 
 <img src="https://drive.google.com/uc?export=view&id=12_7fHfKfdSy8SNXi0nsWznbsRgix9tGJ" width="400" height="366">
+
+# custom Features
+
+- 'run.sh' shortcut for run container and get jupyter-note token.
+- 'stop.sh' shortcut for stop container
+- 'token.sh' get current jupyter notebook's token
+
+# custom settings
+
+- change docker workdir & volume to /mlgo_excercise
+
 
 # Jupyter notebook examples
 You can view example notebooks of lgo from
