@@ -13,6 +13,7 @@ services:
     volumes:
         - C:\Users\baram204\dev\lgo\mlgo_execercise:/mlgo_execercise
         - C:\Users\baram204\dev\goStudy\config:/home/gopher/.jupyter
+    container_name: mlgo
 
 # comment original. cause that's now working on windonws 10 environment.
 
