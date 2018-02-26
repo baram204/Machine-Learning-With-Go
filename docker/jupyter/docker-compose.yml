@@ -12,6 +12,7 @@ services:
     # https://github.com/docker/kitematic/issues/2738
     volumes:
         - C:\Users\baram204\dev\lgo\mlgo_execercise:/mlgo_execercise
+        - C:\Users\baram204\dev\goStudy\config:/home/gopher/.jupyter
 
 # comment original. cause that's now working on windonws 10 environment.
 
