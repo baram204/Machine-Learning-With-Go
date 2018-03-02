@@ -8,6 +8,15 @@ services:
     environment:
       POSTGRES_USER: gopher
       POSTGRES_PASSWORD: 1111
+      LANGUAGE: "C.UTF-8"
+      LANG: "C.UTF-8"
+      LC_ALL: "C.UTF-8"
+      LC_COLLATE: "C"
+      LC_TIME: "C.UTF-8"
+
+#      LANGUAGE: "en_US.UTF-8"
+#      LANG: "en_US.UTF-8"
+#      LC_ALL: "en_US.UTF-8"
     ports:
       - "5432:5432"
   adminer:
@@ -30,7 +39,8 @@ services:
     links:
       - db
     environment:
-      - PGURL="postgres://gopher:1111@localhost"
+      # protocol://user:psss@server:port/database?option=value
+      - PGURL="postgres://gopher:1111@db:5432/gopher?sslmode=disable"
 
 # comment original. cause that's now working on windonws 10 environment.
 
