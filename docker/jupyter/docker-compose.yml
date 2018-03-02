@@ -2,6 +2,19 @@
 version: "3.3"
 
 services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: gopher
+      POSTGRES_PASSWORD: 1111
+    ports:
+      - "5432:5432"
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8889:8080"
   jupyter:
     build:
       context: .
@@ -14,6 +27,10 @@ services:
         - C:\Users\baram204\dev\lgo\mlgo_execercise:/mlgo_execercise
         - C:\Users\baram204\dev\lgo\jupyter\config:/home/gopher/.jupyter
     container_name: mlgo
+    links:
+      - db
+    environment:
+      - PGURL="postgres://gopher:1111@localhost"
 
 # comment original. cause that's now working on windonws 10 environment.
 

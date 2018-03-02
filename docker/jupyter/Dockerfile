@@ -12,7 +12,7 @@ RUN cd /home/gopher/.local/bin && ./jupyter-nbextensions_configurator enable --u
 
 #for DB
 RUN go get github.com/nanobox-io/golang-scribble
-RUN go get github.com/mattn/go-sqlite3
+RUN go get github.com/lib/pq
 RUN go get github.com/go-xorm/xorm
 RUN go get github.com/go-xorm/cmd/xorm
 RUN lgo install
