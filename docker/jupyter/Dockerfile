@@ -10,6 +10,9 @@ RUN pip install jupyter_contrib_nbextensions
 RUN cd /home/gopher/.local/bin && ./jupyter-contrib-nbextension install --user
 RUN cd /home/gopher/.local/bin && ./jupyter-nbextensions_configurator enable --user
 
+#for ML
+RUN go get github.com/kniren/gota/dataframe
+
 #for DB
 RUN go get github.com/nanobox-io/golang-scribble
 RUN go get github.com/lib/pq
