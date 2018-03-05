@@ -33,8 +33,8 @@ services:
     # so many hours wasted Jesus.
     # https://github.com/docker/kitematic/issues/2738
     volumes:
-        - C:\Users\baram204\dev\lgo\mlgo_execercise:/mlgo_execercise
-        - C:\Users\baram204\dev\lgo\jupyter\config:/home/gopher/.jupyter
+        - ../../mlgo_execercise:/mlgo_execercise
+        - ../../jupyter/config:/home/gopher/.jupyter
     container_name: mlgo
     links:
       - db
