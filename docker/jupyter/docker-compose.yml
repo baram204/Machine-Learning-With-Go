@@ -39,8 +39,9 @@ services:
     links:
       - db
     environment:
+      # It's working on bash terminal but not one the lgo jupyter
       # protocol://user:psss@server:port/database?option=value
-      - PGURL="postgres://gopher:1111@db:5432/gopher?sslmode=disable"
+      PGURL: "postgres://gopher:1111@db:5432/gopher?sslmode=disable"
 
 # comment original. cause that's now working on windonws 10 environment.
 
