@@ -18,6 +18,7 @@ RUN go get github.com/nanobox-io/golang-scribble
 RUN go get github.com/lib/pq
 RUN go get github.com/go-xorm/xorm
 RUN go get github.com/go-xorm/cmd/xorm
+RUN go get -u github.com/basgys/goxml2json
 RUN lgo install
 
 # To use JupyterLab, replace "notebook" with "lab".
