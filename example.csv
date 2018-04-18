@@ -1,0 +1,101 @@
+,company,drivertrain,exterior_color,interior_color,mile,photos,price,review_no,star,subname,title,transmission,vendor,video,year
+0,Subaru,4wd,Desert Khaki,Black,26525,23,17999,43,5.0,Crosstrek,Subaru Crosstrek 2.0i,5-speed,1st Choice Autos,1,2016
+1,Mazda,4wd,Silver,Gray,118205,21,3750,43,5.0,Tribute,Mazda Tribute LX V6,4-speed,1st Choice Autos,1,2003
+2,Ford,4wd,Race Red,Black,2330,32,53900,244,5.0,F-150,Ford F-150 Raptor,1-speed,Gilbert & Baugh Ford,1,2018
+3,Porsche,4wd,Gray,Black,14698,32,89997,10,5.0,Cayman,Porsche Cayman GT4,6-speed,Exclusive Auto Wholesale,1,2016
+4,Chevrolet,4wd,Red Hot,Jet Black,1704,32,24000,117,5.0,Camaro,Chevrolet Camaro LT,8-speed,Subaru of Gainesville,1,2017
+5,Mercedes-Benz,rwd,Palladium Silver Metallic,Silk Beige / Espresso Brown,121078,32,32991,939,5.0,S,Mercedes-Benz S 550,7-speed,Hendrick BMW,1,2014
+6,INFINITI,rwd,Platinum,Black,31736,26,19998,18,5.0,Q50,INFINITI Q50 3.0T Premium,7-speed,Hertz Car Sales Winston-Salem,1,2017
+7,Audi,4wd,Silver Metallic,Black,57171,32,14500,201,5.0,TT,Audi TT 3.2 quattro,6-speed,CarLotz Greensboro,1,2008
+8,Tesla,4wd,Black,Black,17342,32,104890,96,5.0,Model,Tesla Model X P90D,1-speed,Bayshore Automotive,1,2016
+9,BMW,rwd,Silver,Creme Beige,106334,31,9995,77,5.0,645,BMW 645 Ci,6-speed,RDU Auto Sales,1,2004
+10,BMW,rwd,Black,Black,14220,37,62584,19,5.0,M6,BMW M6 Base,6-speed,Suncoast Porsche VW,1,2015
+11,Chevrolet,4wd,Millenium Yellow,Black,26912,32,19990,115,5.0,Corvette,Chevrolet Corvette Base,4-speed,Encore Motorcars of Sarasota,1,2002
+12,Mercedes-Benz,4wd,Steel Grey Metallic,Black,59593,32,20994,77,5.0,GLK350,Mercedes-Benz GLK350,7-speed,Jaguar Land Rover Cincinnati,1,2013
+13,Chevrolet,rwd,Beach,Brownstone,11124,28,67900,86,5.0,Corvette,Chevrolet Corvette Z06,8-speed,Skyline Imports,1,2016
+14,Ford,rwd,Black,Medium Stone,43987,28,20775,11,5.0,Mustang,Ford Mustang GT Premium,6-speed,Volvo Cars of Richmond,1,2014
+15,Honda,4wd,Black,Gray,93043,32,8995,7,5.0,CR-V,Honda CR-V EX-L,5-speed,Auto Mart Of Ohio,1,2008
+16,Maserati,4wd,Black,Black,36037,31,33495,15,5.0,Ghibli,Maserati Ghibli S Q4,8-speed,Creekside Auto,1,2014
+17,Mercedes-Benz,4wd,Black,Deep Sea Blue / Silk Beige,35386,32,42990,23,5.0,S,Mercedes-Benz S 550 4MATIC,7-speed,Jumbo Luxury Cars,1,2014
+18,Mercedes-Benz,4wd,White,Black,40784,32,16990,23,5.0,CLA,Mercedes-Benz CLA 250 4MATIC,7-speed,Jumbo Luxury Cars,1,2014
+19,Mercedes-Benz,4wd,Silver,Black,35286,32,23990,23,5.0,C,Mercedes-Benz C 300,7-speed,Jumbo Luxury Cars,1,2015
+20,Toyota,4wd,Blue,Gray,78537,26,21762,80,5.0,Tundra,Toyota Tundra Grade,6-speed,Koons of Fredericksburg South,1,2013
+21,Audi,4wd,Phantom Black Pearl,Black,33408,32,23980,16,5.0,A6,Audi A6 2.0T Premium Plus quattro,8-speed,VINS DC,1,2015
+22,BMW,4wd,Space Gray Metallic,Sand Beige,50067,29,18450,16,5.0,X5,BMW X5 xDrive35i Premium,8-speed,VINS DC,1,2011
+23,Audi,4wd,Scuba Blue Metallic,Black,18545,32,23980,16,5.0,A5,Audi A5 2.0T Premium quattro,8-speed,VINS DC,1,2015
+24,Porsche,rwd,Basalt Black Metallic,Brown Leather,49943,32,29995,54,5.0,911,Porsche 911 Targa,6-speed,Chantilly Auto Sales,1,2004
+25,Kia,4wd,Silver,Gray,74974,27,9922,24,5.0,Optima,Kia Optima EX,6-speed,Mini of Sterling,1,2012
+26,Audi,4wd,Black,Black,25087,20,22998,8,5.0,A4,Audi A4 2.0T Premium quattro,8-speed,CarMax Dulles,1,2015
+27,Pontiac,4wd,Ivory White,Cashmere,110422,20,4293,44,5.0,Grand,Pontiac Grand Prix GT,4-speed,Cherner Brothers Auto Brokers,1,2007
+28,Ford,4wd,Gray,Gray,17233,32,27699,37,5.0,F-150,Ford F-150,6-speed,"Wadsworth Motorcars, Inc.",1,2017
+29,RAM,4wd,Black Clearcoat,Black,35109,30,19989,24,5.0,1500,RAM 1500 Tradesman/Express,6-speed,Columbiana Ford,1,2014
+30,Chevrolet,rwd,Beach,Jet Black,6221,32,69900,24,5.0,Corvette,Chevrolet Corvette Z06,8-speed,Isringhausen Imports,1,2016
+31,Bentley,4wd,Midnight Black,Saddle,1531,40,179900,24,5.0,Continental,Bentley Continental GT,8-speed,Isringhausen Imports,1,2017
+32,Toyota,4wd,Silver Streak Mica,Graphite,148106,27,11361,110,5.0,Tacoma,Toyota Tacoma Access Cab,6-speed,Koons Toyota Scion Of Westminster,1,2008
+33,Land,4wd,Santorini Black,Almond / Nutmeg,37176,30,32998,125,5.0,Rover,Land Rover Range Rover Sport HSE,6-speed,Reliable Hyundai,0,2013
+34,Maserati,rwd,Bianco Eldorado,Sabbia,16222,29,51000,68,5.0,GranTurismo,Maserati GranTurismo Base,6-speed,Mercedes-Benz of Willoughby,1,2011
+35,Cadillac,rwd,Opulent Blue Metallic,Light Platinum,64385,26,25500,22,5.0,CTS,Cadillac CTS 3.6L Twin Turbo Vsport,8-speed,Dralle Chevrolet Buick of Peotone,1,2014
+36,Ford,4wd,Gray,Gray,221160,20,4999,21,5.0,F-150,Ford F-150 FX4 SuperCab,4-speed,I-Deal Cars LLC,1,2004
+37,Toyota,4wd,Gray,Gray,219670,25,12500,21,5.0,Tundra,Toyota Tundra Limited,5-speed,I-Deal Cars LLC,1,2007
+38,INFINITI,4wd,Black,Black,17055,21,19998,6,5.0,Q40,INFINITI Q40,7-speed,CarMax Oak Lawn,0,2015
+39,Ford,4wd,Silver,Black,40111,24,26998,6,5.0,Explorer,Ford Explorer Sport,6-speed,CarMax Oak Lawn,0,2014
+40,Acura,4wd,Gray,Ebony,1702,29,13975,6,5.0,ILX,Acura ILX 2.0L Technology,5-speed,Summit Auto Center,0,2013
+41,Honda,4wd,Hematite Metallic,Black,47415,26,14900,726,5.0,Accord,Honda Accord Sport,6-speed,Continental Honda,0,2015
+42,Kia,4wd,Snow White Pearl,Satin Black,10247,25,19800,726,5.0,Sorento,Kia Sorento LX,6-speed,Continental Honda,0,2016
+43,Acura,4wd,Crystal Black Pearl,Ebony,35769,27,29500,726,5.0,MDX,Acura MDX 3.5L Technology Package,6-speed,Continental Honda,0,2015
+44,BMW,rwd,Glacier Silver Metallic,Venetian Beige,29624,32,18983,14,5.0,328,BMW 328 i,8-speed,Zeigler Pre-Owned of Chicago,1,2015
+45,BMW,rwd,Black Sapphire Metallic,Black,27152,49,56500,63,5.0,M6,BMW M6 Base,7-speed,Napleton's Aston Martin of Chicago,1,2014
+46,Chrysler,rwd,Blue,Gray,163117,28,2995,11,5.0,300,Chrysler 300 Base,4-speed,Moto Zone Inc.,1,2005
+47,Ford,4wd,Black,Black,110250,27,7995,11,5.0,Escape,Ford Escape Limited,6-speed,Moto Zone Inc.,1,2010
+48,Pontiac,4wd,Silver,Black,51556,30,5495,11,5.0,G5,Pontiac G5 GT,4-speed,Moto Zone Inc.,1,2007
+49,Porsche,4wd,Jet Black Metallic,Black,23689,24,48995,157,5.0,Macan,Porsche Macan S,7-speed,Porsche of The Main Line,1,2015
+50,Saturn,rwd,Black Onyx,Tan,56849,23,9500,139,5.0,Sky,Saturn Sky Red Line,5-speed,BMW of Atlantic City,1,2008
+51,Ford,4wd,Tuxedo Black Metallic,Charcoal Black,59113,27,8645,94,5.0,Fusion,Ford Fusion SE,6-speed,DiLeo Auto Sales,1,2013
+52,Honda,4wd,Black,Gray,113806,24,4900,31,5.0,Fit,Honda Fit,5-speed,Albo Auto Sales,0,2009
+53,Porsche,4wd,Black,Black,53515,26,16999,29,5.0,Cayenne,Porsche Cayenne Base,6-speed,Premier Auto,1,2009
+54,Jaguar,4wd,Ebony Black,Jet,8741,32,73995,21,5.0,F-TYPE,Jaguar F-TYPE R,8-speed,Imperial Motors Jaguar of Lake Bluff,1,2016
+55,Kia,4wd,Ebony Black,Black,77292,31,9495,86,5.0,Sorento,Kia Sorento LX,6-speed,Highline Motor Cars,1,2012
+56,Chevrolet,rwd,Arctic White,Red,15555,50,30900,84,5.0,Corvette,Chevrolet Corvette,6-speed,Green Family Chevrolet,1,2008
+57,Chevrolet,rwd,Torch Red,Ebony,9863,32,29500,84,5.0,Corvette,Chevrolet Corvette Base,6-speed,Green Family Chevrolet,1,2012
+58,Toyota,rwd,Red,Charcoal,240000,32,7500,9,5.0,Tacoma,Toyota Tacoma PreRunner Double Cab,4-speed,Select Jeeps,1,2002
+59,Honda,4wd,Whistler Silver Metallic,Gray,166599,27,5999,29,5.0,CR-V,Honda CR-V EX,5-speed,Nationwide Auto Group of East Windsor,1,2007
+60,Toyota,4wd,Classic Silver Metallic,Ash,51153,32,11500,28,5.0,Camry,Toyota Camry LE,6-speed,Autos-Mobiles,1,2014
+61,INFINITI,4wd,Deep Garnet Metallic,Graphite,93359,32,14900,28,5.0,QX56,INFINITI QX56,5-speed,Autos-Mobiles,1,2010
+62,Toyota,4wd,Vanilla,Gray,60215,32,17995,32,5.0,Sienna,Toyota Sienna LE,6-speed,Neary's Auto Sales Inc.,1,2014
+63,Cadillac,4wd,Black Raven,Jet Black,34651,55,49995,679,5.0,Escalade,Cadillac Escalade Luxury,8-speed,Gold Coast Cadillac,0,2015
+64,Volkswagen,4wd,Black,Beige,58735,22,13995,214,5.0,Tiguan,Volkswagen Tiguan 4MOTION Auto S,6-speed,Shrewsbury Volkswagen,1,2015
+65,Audi,4wd,Florett Silver Metallic / Black Roof,Black,18039,32,36895,403,5.0,TT,Audi TT 2.0T quattro,6-speed,Audi Mendham,1,2016
+66,Chevrolet,rwd,Black,Black,14078,40,32991,844,5.0,Camaro,Chevrolet Camaro 2SS,8-speed,Reliable Chevrolet,1,2016
+67,Ford,4wd,Red,Gray,136506,25,17990,8,5.0,F-250,Ford F-250 FX4 Super Duty,5-speed,Sussex Auto Group,1,2008
+68,Lexus,4wd,Nebula Gray Pearl,Light Gray,49620,26,24988,75,5.0,RX,Lexus RX 350,6-speed,Sewell Lexus of Dallas,0,2013
+69,MINI,4wd,White,Black,99925,26,3999,16,5.0,Cooper,MINI Cooper S Base,6-speed,Apollo Certified Pre-Owned Vehicles,0,2008
+70,Honda,4wd,Silver,Black,83806,29,10999,16,5.0,Civic,Honda Civic EX,6-speed,Apollo Certified Pre-Owned Vehicles,0,2016
+71,BMW,4wd,Blue,Tan,93929,32,11999,16,5.0,535,BMW 535 i xDrive,6-speed,Apollo Certified Pre-Owned Vehicles,0,2011
+72,Nissan,4wd,Black,Black,73354,29,6999,16,5.0,Altima,Nissan Altima 2.5 SL,6-speed,Apollo Certified Pre-Owned Vehicles,0,2013
+73,Chrysler,4wd,Silver,Select,107234,30,8999,16,5.0,300,Chrysler 300 S,6-speed,Apollo Certified Pre-Owned Vehicles,0,2012
+74,Toyota,4wd,Black,Black,86449,32,11999,16,5.0,Sienna,Toyota Sienna L,6-speed,Apollo Certified Pre-Owned Vehicles,0,2011
+75,Ford,4wd,Silver,Black,132735,21,6795,15,5.0,F-150,Ford F-150 XLT,6-speed,Galaxy Auto One,1,2005
+76,Mercedes-Benz,4wd,Black,Black,63603,32,15995,7,5.0,SL550,Mercedes-Benz SL550,6-speed,Queens National Auto Group Corp,1,2007
+77,Nissan,4wd,Super Black,Black,67280,26,8700,69,5.0,Altima,Nissan Altima 2.5 S,6-speed,ACA Auto Sales,1,2013
+78,BMW,rwd,Space Gray Metallic,Black,76245,26,18888,459,5.0,750,BMW 750 i,6-speed,Auto One,1,2012
+79,Honda,4wd,Black,Gray,98918,32,8400,7,5.0,Civic,Honda Civic EX,5-speed,Super Auto Land,1,2013
+80,Chevrolet,4wd,Black,Jet Black,57000,25,35000,25,5.0,Tahoe,Chevrolet Tahoe LT,6-speed,LaSorsa Auto Group,1,2016
+81,Porsche,4wd,Meteor Gray Metallic,Black w/Alcantara,73064,24,26990,9,5.0,Cayenne,Porsche Cayenne GTS,6-speed,Performance Imports,1,2009
+82,Kia,4wd,Denim,Black,109434,32,4950,553,5.0,Soul,Kia Soul sport,4-speed,Richard Chevrolet,1,2010
+83,Volkswagen,4wd,Gray,Black,61550,27,7985,31,5.0,Jetta,Volkswagen Jetta Wolfsburg Edition,6-speed,Better Buys Auto,1,2010
+84,BMW,rwd,Gray,Black,48748,32,52500,10,5.0,M6,BMW M6 Gran Coupe Base,6-speed,Priority Pre-Owned,1,2014
+85,Ford,4wd,Black,Black,77876,28,12999,9,5.0,Utility,Ford Utility Police Interceptor AWD 4dr,6-speed,International Auto Sales,0,2013
+86,INFINITI,4wd,Moonlight White,Wheat,66843,32,10999,9,5.0,G37,INFINITI G37 x,7-speed,Marx Motors on First Ave,0,2011
+87,Honda,4wd,White,Tan,38757,32,11490,9,5.0,Accord,Honda Accord EX-L,5-speed,Marx Motors on First Ave,0,2012
+88,Ford,4wd,Lightning Blue,Medium Earth Gray,23015,29,28893,13,5.0,F-150,Ford F-150 XLT,6-speed,Boyer Pre-Owned Trucks,1,2017
+89,Maserati,4wd,Nero Carbonio,Beige,25596,32,34957,57,5.0,GranTurismo,Maserati GranTurismo 2dr Cpe GranTurismo,6-speed,Luxury Motorsports,1,2008
+90,Chevrolet,rwd,Silver Ice Metallic,Gray,56765,27,13984,941,5.0,Camaro,Chevrolet Camaro 2LS,6-speed,Reliable Auto Sales,1,2012
+91,Mazda,4wd,Crystal White Pearl Mica,Dune,166069,32,5999,20,5.0,Mazda3,Mazda Mazda3 s Grand Touring,5-speed,Johnny's Motors Inc.,1,2010
+92,Nissan,4wd,Jet Black Pearl,Black,25597,30,66980,16,5.0,GT-R,Nissan GT-R Premium,6-speed,HJ Auto Group Inc.,1,2014
+93,Toyota,4wd,Super White,Ash,31802,24,14788,26,5.0,Camry,Toyota Camry LE,6-speed,Bravo Chrysler Dodge Jeep RAM,1,2016
+94,Honda,4wd,Dark Emerald Pearl,Tan,62424,27,3490,44,5.0,Accord,Honda Accord LX,4-speed,Starfire Auto Inc.,1,1999
+95,Jeep,rwd,Rescue Green Clearcoat Metallic,Medium Slate Gray,135400,21,12500,10,5.0,Wrangler,Jeep Wrangler Unlimited Sahara,4-speed,Cost Less Auto,1,2007
+96,BMW,rwd,Monaco Blue Metallic,Gray,119494,32,8988,8,5.0,335,BMW 335 i,6-speed,Superior Motors,1,2007
+97,Toyota,4wd,Crystal Black Pearl,Gray Cloth,97000,22,9999,25,5.0,Prius,Toyota Prius Two,6-speed,South Valley Auto Wholesale,1,2014
+98,BMW,4wd,Black Sapphire Metallic,Not Specified,64079,25,16900,15,5.0,335,BMW 335 i,6-speed,Luxury Sport Auto,1,2011
+99,Audi,4wd,Mythos Black Metallic,Black,8628,30,74950,56,5.0,A8,Audi A8 L 4.0T Sport,8-speed,Porsche Bellingham,1,2017
